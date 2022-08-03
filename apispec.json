@@ -103,6 +103,10 @@
                 "summary": "Get category",
                 "parameters": [
                     {
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "required": true,
                         "name": "categoryId",
                         "in": "path",
                         "description": "Category id"
@@ -143,6 +147,10 @@
                 "summary": "Update category",
                 "parameters": [
                     {
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "required": true,
                         "name": "categoryId",
                         "in": "path",
                         "description": "Category id"
@@ -192,6 +200,10 @@
                 "summary": "Delete category",
                 "parameters": [
                     {
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "required": true,
                         "name": "categoryId",
                         "in": "path",
                         "description": "Category id"
@@ -311,6 +323,10 @@
                 "summary": "Get product",
                 "parameters": [
                     {
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "required": true,
                         "name": "productId",
                         "in": "path",
                         "description": "product id"
@@ -351,6 +367,10 @@
                 "summary": "Update product",
                 "parameters": [
                     {
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "required": true,
                         "name": "productId",
                         "in": "path",
                         "description": "Product id"
@@ -400,6 +420,10 @@
                 "summary": "Delete product",
                 "parameters": [
                     {
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "required": true,
                         "name": "productId",
                         "in": "path",
                         "description": "Product id"
